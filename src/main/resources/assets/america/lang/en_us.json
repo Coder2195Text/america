@@ -1,0 +1,19 @@
+{
+  "block.america.uranium_ore": "Uranium Ore",
+  "block.america.landmine": "Landmine",
+  "effect.america.dazzled": "Dazzled",
+  "item.america.bullet": "Bullet",
+  "item.america.uranium": "Uranium",
+  "item.america.landmine": "Landmine",
+  "item.america.flashbang": "Flashbang",
+  "itemgroup.america_weapons": "America++ Weapons",
+  "sounds.america.fire": "Gunshot",
+  "sounds.america.reload": "Gun Reloads",
+  "sounds.america.bullet_hit": "Bullet Thuds",
+  "sounds.america.smoke_grenade_detonate": "Smoke Grenade Detonates",
+  "sounds.america.bullet_success": "Successful Bullet Hit",
+  "sounds.america.tank_cannon": "Tank Cannon Fires",
+  "sounds.america.flashbang_detonate": "Flashbang Detonates",
+  "sounds.america.grenade_pin": "Grenade Pin Pulled",
+  "sounds.america.tank_machine_gun": "Tank Machine Gun Fires"
+}
