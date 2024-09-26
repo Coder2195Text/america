@@ -1,9 +1,11 @@
 package mod.coder2195.america;
 
 import mod.coder2195.america.block.ModBlocks;
+import mod.coder2195.america.effect.ModStatusEffects;
 import mod.coder2195.america.entity.ModEntities;
 import mod.coder2195.america.item.ModItemGroups;
 import mod.coder2195.america.item.ModItems;
+import mod.coder2195.america.sound.ModSounds;
 import mod.coder2195.america.world.ModOreGeneration;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
@@ -26,7 +28,9 @@ public class America implements ModInitializer {
   public void onInitialize() {
     ModItems.registerItems();
     ModItemGroups.registerItemGroups();
+    ModSounds.registerModSounds();
     ModBlocks.registerBlocks();
+    ModStatusEffects.registerStatusEffects();
     ModOreGeneration.registerOres();
     ModEntities.registerEntities();
   }

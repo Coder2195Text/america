@@ -2,6 +2,7 @@ package mod.coder2195.america;
 
 import mod.coder2195.america.block.ModBlocks;
 import mod.coder2195.america.entity.client.ModEntitiesClient;
+import mod.coder2195.america.render.ModRender;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -12,5 +13,6 @@ public class AmericaClient implements ClientModInitializer {
   public void onInitializeClient() {
     ModBlocks.registerClient();
     ModEntitiesClient.registerEntityRenderers();
+    ModRender.init();
   }
 }

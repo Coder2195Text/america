@@ -1,0 +1,5 @@
+accessWidener v2 named
+
+accessible method net/minecraft/block/FireBlock areBlocksAroundFlammable (Lnet/minecraft/world/BlockView;Lnet/minecraft/util/math/BlockPos;)Z
+accessible method net/minecraft/entity/mob/MobEntity getLootTableId ()Lnet/minecraft/util/Identifier;
+accessible field net/minecraft/entity/mob/MobEntity lootTableSeed J

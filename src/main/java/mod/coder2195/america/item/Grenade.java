@@ -32,7 +32,7 @@ public class Grenade extends Item {
     return UseAction.SPEAR;
   }
 
-  public int getMaxUseTime(ItemStack stack) {
+  public int getMaxUseTime(ItemStack stack, LivingEntity user) {
     return 72000;
   }
 
@@ -40,7 +40,7 @@ public class Grenade extends Item {
     if (world.isClient) return;
 
 
-    float ticks = getMaxUseTime(itemStack) - remainingUseTicks;
+    float ticks = getMaxUseTime(itemStack, user) - remainingUseTicks;
 
     float speed = MathHelper.clamp(ticks / 20.0F, 0.0F, 2.0F) * 1F;
 

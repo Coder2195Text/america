@@ -1,40 +1,41 @@
 {
-	"schemaVersion": 1,
-	"id": "america",
-	"version": "${version}",
-	"name": "America++",
-	"description": "America++",
-	"authors": [
-		"Me!"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/america/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
+  "schemaVersion": 1,
+  "id": "america",
+  "version": "${version}",
+  "name": "America++",
+  "description": "America++",
+  "authors": [
+    "Me!"
+  ],
+  "accessWidener": "america.accesswidener",
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/america/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
       "mod.coder2195.america.America"
-		],
+    ],
     "client": [
       "mod.coder2195.america.AmericaClient"
     ],
-		"fabric-datagen": [
+    "fabric-datagen": [
       "mod.coder2195.america.AmericaDatagen"
-		]
-	},
-	"mixins": [
-		"america.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.16.2",
-		"minecraft": "~1.21.1",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+    ]
+  },
+  "mixins": [
+    "america.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.2",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
 }
