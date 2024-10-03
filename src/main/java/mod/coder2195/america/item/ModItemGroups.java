@@ -19,6 +19,7 @@ public class ModItemGroups {
             entries.add(ModItems.BULLET);
             entries.add(ModBlocks.LANDMINE.asItem());
             entries.add(ModItems.FLASHBANG);
+            entries.add(ModItems.INCENDIARY_GRENADE);
           }).build());
 
   public static void registerItemGroups() {

@@ -29,5 +29,6 @@ public class ModelProvider extends FabricModelProvider {
     itemModelGenerator.register(ModItems.URANIUM, Models.GENERATED);
     itemModelGenerator.register(ModBlocks.LANDMINE.asItem(), Models.GENERATED);
     itemModelGenerator.register(ModItems.FLASHBANG, Models.GENERATED);
+    itemModelGenerator.register(ModItems.INCENDIARY_GRENADE, Models.GENERATED);
   }
 }

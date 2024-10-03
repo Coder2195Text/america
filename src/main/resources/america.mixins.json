@@ -1,10 +1,14 @@
 {
-	"required": true,
-	"package": "mod.coder2195.america.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-	],
-	"injectors": {
-		"defaultRequire": 1
-	}
+  "required": true,
+  "package": "mod.coder2195.america.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DazzledLookMixin",
+    "DazzledTargetMixin",
+    "DazzledTrackMixin",
+    "FireMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
 }

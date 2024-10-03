@@ -2,6 +2,7 @@ package mod.coder2195.america.item;
 
 import mod.coder2195.america.America;
 import mod.coder2195.america.entity.FlashbangEntity;
+import mod.coder2195.america.entity.IncendiaryGrenadeEntity;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -11,6 +12,7 @@ public class ModItems {
   public static final Item URANIUM = register(new Item(new Item.Settings()), "uranium");
 
   public static final Item FLASHBANG = register(new Grenade(FlashbangEntity.class), "flashbang");
+  public static final Item INCENDIARY_GRENADE = register(new Grenade(IncendiaryGrenadeEntity.class), "incendiary_grenade");
 
   public static Item register(Item item, String id) {
     return Registry.register(Registries.ITEM, America.id(id), item);

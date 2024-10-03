@@ -12,6 +12,6 @@ public class ModEntitiesClient {
   public static void registerEntityRenderers() {
     America.LOGGER.info("Registering Entity Renderers");
     EntityRendererRegistry.register(ModEntities.FLASHBANG, FlyingItemEntityRenderer::new);
-
+    EntityRendererRegistry.register(ModEntities.INCENDIARY_GRENADE, FlyingItemEntityRenderer::new);
   }
 }

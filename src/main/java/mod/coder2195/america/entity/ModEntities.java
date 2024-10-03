@@ -15,6 +15,11 @@ public class ModEntities {
       FabricEntityTypeBuilder.<FlashbangEntity>create(SpawnGroup.MISC, FlashbangEntity::new)
           .dimensions(EntityDimensions.fixed(0.25f, 0.25f)).build());
 
+  public static final EntityType<IncendiaryGrenadeEntity> INCENDIARY_GRENADE = Registry.register(Registries.ENTITY_TYPE,
+      America.id("incendiary_grenade"),
+      FabricEntityTypeBuilder.<IncendiaryGrenadeEntity>create(SpawnGroup.MISC, IncendiaryGrenadeEntity::new)
+          .dimensions(EntityDimensions.fixed(0.25f, 0.25f)).build());
+
   public static void registerEntities() {
     America.LOGGER.info("Registering Entities");
   }
