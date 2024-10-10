@@ -6,7 +6,8 @@
     "DazzledLookMixin",
     "DazzledTargetMixin",
     "DazzledTrackMixin",
-    "FireMixin"
+    "FireMixin",
+    "PlayerRenderMixin"
   ],
   "injectors": {
     "defaultRequire": 1

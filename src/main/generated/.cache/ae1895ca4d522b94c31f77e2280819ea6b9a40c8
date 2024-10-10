@@ -1,8 +1,8 @@
-// 1.21.1	2024-10-01T16:47:54.354920614	America++/Model Definitions
+// 1.21.1	2024-10-06T21:01:03.910878264	America++/Model Definitions
 87a31f558c204b912e9ebcbde32e406077972cad assets/america/models/item/uranium_ore.json
 5bc2caa92ac8e310c49000dd126fc8b52a34d9ad assets/america/blockstates/uranium_ore.json
-3b1530cb27d11a0cd9ec7b7054bfd5c4910d7e5d assets/america/blockstates/landmine.json
 02dc787e08804ebaf0ba61d26f04e21e358a3eed assets/america/models/item/landmine.json
+3b1530cb27d11a0cd9ec7b7054bfd5c4910d7e5d assets/america/blockstates/landmine.json
 6868e75c519cad14b9bd2383fd21e6cb2233364f assets/america/models/item/uranium.json
 8038bdb829795cc5ea812b765e28b9d1262bea86 assets/america/models/item/bullet.json
 3923ce7b9457cb9ab1a6248685bd285274756832 assets/america/models/item/incendiary_grenade.json

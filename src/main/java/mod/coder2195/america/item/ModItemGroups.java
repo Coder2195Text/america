@@ -3,6 +3,7 @@ package mod.coder2195.america.item;
 import mod.coder2195.america.America;
 import mod.coder2195.america.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -20,6 +21,10 @@ public class ModItemGroups {
             entries.add(ModBlocks.LANDMINE.asItem());
             entries.add(ModItems.FLASHBANG);
             entries.add(ModItems.INCENDIARY_GRENADE);
+
+            for (Item item : ModItems.GUNS) {
+              entries.add(item);
+            }
           }).build());
 
   public static void registerItemGroups() {
