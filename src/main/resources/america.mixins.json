@@ -3,10 +3,12 @@
   "package": "mod.coder2195.america.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "CooldownMixin",
     "DazzledLookMixin",
     "DazzledTargetMixin",
     "DazzledTrackMixin",
     "FireMixin",
+    "HeldItemMixin",
     "PlayerRenderMixin"
   ],
   "injectors": {

@@ -20,7 +20,7 @@ public class PlayerRenderMixin {
   private static void injected(AbstractClientPlayerEntity player, Hand hand, CallbackInfoReturnable<BipedEntityModel.ArmPose> cir) {
     ItemStack itemStack = player.getStackInHand(hand);
     if (itemStack.isIn(ModItemTags.GUNS)) {
-      cir.setReturnValue(BipedEntityModel.ArmPose.BOW_AND_ARROW);
+      cir.setReturnValue(BipedEntityModel.ArmPose.CROSSBOW_HOLD);
     }
   }
 }

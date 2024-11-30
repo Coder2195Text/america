@@ -4572,11 +4572,11 @@
     "firstperson_righthand": {
       "rotation": [
         0,
-        -90,
+        -100,
         0
       ],
       "translation": [
-        0,
+        2.5,
         2.25,
         -7
       ]
